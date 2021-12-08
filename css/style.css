@@ -1,0 +1,270 @@
+html{
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, #96D7C6, #BAC94A);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card{
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  margin: 70px;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  transition: 0.4s;
+}
+
+.card:hover{
+  background-color: #F04393;
+  color: white;
+  text-decoration: underline;
+  transform: scale(1.10);
+}
+
+.card h1{
+  margin: 6px;
+}
+
+.card-image{
+  background-color: burlywood;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 50px;
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+header h1{
+  transition: 0.6s;
+  font-size: 40px;
+}
+
+header h1:hover{
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+h1, p{
+  margin-bottom: 10px;
+}
+
+.flex h1{
+  font-size: 25px;
+}
+
+.abad{
+  background-image: url(../img/lucia/1-abad.jpg);
+  background-size: cover;
+}
+
+.candelaria{
+  background-image: url(../img/lucia/2-candelaria.jpg);
+  background-size: cover;
+}
+
+.graciadas{
+  background-image: url(../img/lucia/3-graciadas.jpg);
+  background-size: cover;
+}
+
+.javellana{
+  background-image: url(../img/lucia/4-javellana.jpg);
+  background-size: cover;
+}
+
+.pagalan{
+  background-image: url(../img/lucia/5-pagalan.jpeg);
+  background-size: cover;
+}
+
+.palma{
+  background-image: url(../img/lucia/6-palma.jpg);
+  background-size: cover;
+}
+
+.revilla{
+  background-image: url(../img/lucia/7-revilla.jpg);
+  background-size: cover;
+}
+/* no pic
+.sayson{
+  background-image: url(../img/lucia/2-candelaria.jpg);
+  background-size: cover;
+}*/
+
+.umac{
+  background-image: url(../img/lucia/9-umac.jpg);
+  background-size: cover;
+}
+
+.aniceto{
+  background-image: url(../img/jacinta/1-aniceto.jpg);
+  background-size: cover;
+}
+
+.antonio{
+  background-image: url(../img/jacinta/2-antonio.jpg);
+  background-size: cover;
+}
+
+.ballesteros{
+  background-image: url(../img/jacinta/3-ballesteros.jpg);
+  background-size: cover;
+}
+
+.canlas{
+  background-image: url(../img/jacinta/4-canlas.jpg);
+  background-size: cover;
+}
+
+.garcia{
+  background-image: url(../img/jacinta/5-garcia.jpg);
+  background-size: cover;
+}
+
+.gil{
+  background-image: url(../img/jacinta/6-gil.jpg);
+  background-size: cover;
+}
+
+.gipit{
+  background-image: url(../img/jacinta/7-gipit.jpg);
+  background-size: cover;
+}
+/*no pic
+.gonzalesd{
+  background-image: url(../img/jacinta/5-garcia.jpg);
+  background-size: cover;
+}*/
+
+.gonzalesn{
+  background-image: url(../img/jacinta/9-gonzalesn.jpg);
+  background-size: cover;
+}
+
+/*no pic
+.huevos{
+  background-image: url(../img/jacinta/5-garcia.jpg);
+  background-size: cover;
+}*/
+
+.ines{
+  background-image: url(../img/jacinta/11-ines.jpg);
+  background-size: cover;
+}
+
+.joven{
+  background-image: url(../img/jacinta/12-joven.jpg);
+  background-size: cover;
+}
+
+.madamba{
+  background-image: url(../img/jacinta/13-madamba.jpg);
+  background-size: cover;
+}
+
+.mallorca{
+  background-image: url(../img/jacinta/14-mallorca.jpg);
+  background-size: cover;
+}
+
+.mamaril{
+  background-image: url(../img/jacinta/15-mamaril.jpg);
+  background-size: cover;
+}
+
+.rabajante{
+  background-image: url(../img/jacinta/16-rabajante.jpg);
+  background-size: cover;
+}
+
+.ragel{
+  background-image: url(../img/jacinta/17-ragel.jpg);
+  background-size: cover;
+}
+/*
+.salazar{
+  background-image: url(../img/jacinta/15-mamaril.jpg);
+  background-size: cover;
+}*/
+
+.talledo{
+  background-image: url(../img/jacinta/19-talledo.jpg);
+  background-size: cover;
+}
+
+.teano{
+  background-image: url(../img/jacinta/20-teano.jpg);
+  background-size: cover;
+}
+
+.tecio{
+  background-image: url(../img/jacinta/21-tecio.jpg);
+  background-size: cover;
+}
+
+.torio{
+  background-image: url(../img/jacinta/22-torio.jpg);
+  background-size: cover;
+}
+
+.bedrio{
+  background-image: url(../img/jacinta/23-bedrio.jpg);
+  background-size: cover;
+}
+
+.cudiamat{
+  background-image: url(../img/jacinta/24-cudiamat.jpg);
+  background-size: cover;
+}
+
+.japitana{
+  background-image: url(../img/jacinta/25-japitana1.jpg);
+  background-size: cover;
+}
+/*
+.langreo{
+  background-image: url(../img/jacinta/25-japitana1.jpg);
+  background-size: cover;
+}*/
+
+.lawan{
+  background-image: url(../img/jacinta/27-lawan.jpg);
+  background-size: cover;
+}
+
+.lomeda{
+  background-image: url(../img/jacinta/28-lomeda.jpg);
+  background-size: cover;
+}
+
+.tabigue{
+  background-image: url(../img/jacinta/29-tabigue2.jpg);
+  background-size: cover;
+}
+
