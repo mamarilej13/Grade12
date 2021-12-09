@@ -77,6 +77,15 @@ h1, p{
   font-size: 25px;
 }
 
+.adviser{
+  border: 3px solid black;
+}
+
+.robles{
+  background-image: url(../img/jacinta/0-robles.jpg);
+  background-size: cover;
+}
+
 .abad{
   background-image: url(../img/lucia/1-abad.jpg);
   background-size: cover;
